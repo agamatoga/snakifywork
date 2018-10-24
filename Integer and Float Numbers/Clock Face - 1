@@ -1,0 +1,7 @@
+h= float(input())
+m= float(input())
+s= float(input())
+hours= h*30
+minutes= m*.5
+seconds=s*.008333333
+print(hours+minutes+seconds)

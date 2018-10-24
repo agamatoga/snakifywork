@@ -1,0 +1,4 @@
+d=float(input())
+m=d%30
+minutes=m*12
+print(minutes)
