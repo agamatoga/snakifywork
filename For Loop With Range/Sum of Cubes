@@ -1,0 +1,5 @@
+n= int(input())
+cubes= 0
+for i in range(n+1):
+    cubes= i**3+cubes
+print(cubes)
