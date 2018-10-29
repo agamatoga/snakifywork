@@ -1,0 +1,5 @@
+a=int(input())
+steps=""
+for i in range(1,a+1):
+    steps=str(steps)+str(i)
+    print(str(steps))
