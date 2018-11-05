@@ -1,0 +1,8 @@
+s= input()
+if s.count("f")==0:
+    print("")
+elif s.count("f")>=2:
+    print(str(s.find("f"))+" "+ str(s.rfind("f")))
+else:
+    print(s.find("f"))
+    
