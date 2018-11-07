@@ -1,0 +1,9 @@
+s= input()
+m= s.find("f")
+d=s[m+1:]
+if s.count("f")==0:
+    print(-2)
+elif s.count("f")==1:
+    print(-1)
+else:
+    print(d.find("f")+m+1)
