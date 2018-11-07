@@ -1,0 +1,5 @@
+s= input()
+f= s.find('h')
+l= s.rfind('h')
+d= s[f:l+1]
+print(s.replace(d,""))
